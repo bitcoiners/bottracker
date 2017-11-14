@@ -5,20 +5,7 @@ $(function () {
 
     var bots = [
       { name: 'booster', interval: 2.4, comments: true },
-      { name: 'bellyrub', interval: 2.4, comments: true },
-      { name: 'buildawhale', interval: 2.4, comments: true },
-      { name: 'boomerang', interval: 2.4, comments: true },
-      { name: 'minnowhelper', interval: 2.4, comments: true },
-      { name: 'discordia', interval: 2.4, comments: true },
-      { name: 'lovejuice', interval: 2.4, comments: true },
-      { name: 'sneaky-ninja', interval: 2.4, comments: true },
-      { name: 'upgoater', interval: 2.4, comments: true },
-      { name: 'voter', interval: 2.4, comments: true },
-      { name: 'appreciator', interval: 2.4, comments: false },
       { name: 'pushup', interval: 2.4, comments: true }
-      /*{ name: 'khoa', interval: 2.4 },
-      { name: 'polsza', interval: 2.4 },
-      { name: 'drotto', interval: 2.4 }*/
     ];
     var bot_names = [];
     bots.forEach(function (bot) {
